@@ -12,4 +12,8 @@ page-layout: full
 title-block-banner: true
 ---
 
+Hello World
 
+```{python}
+2**8 + 1 
+```
