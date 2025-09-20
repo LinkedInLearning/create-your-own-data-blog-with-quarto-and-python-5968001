@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "CONTRIBUTING.html",
+    "href": "CONTRIBUTING.html",
+    "title": "Contribution Agreement",
+    "section": "",
+    "text": "Contribution Agreement\nThis repository does not accept pull requests (PRs). All pull requests will be closed.\nHowever, if any contributions (through pull requests, issues, feedback or otherwise) are provided, as a contributor, you represent that the code you submit is your original work or that of your employer (in which case you represent you have the right to bind your employer). By submitting code (or otherwise providing feedback), you (and, if applicable, your employer) are licensing the submitted code (and/or feedback) to LinkedIn and the open source community subject to the BSD 2-Clause license."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "A Blog With Python Thanks to Quarto",
+    "section": "",
+    "text": "Hello World\n\n2**8 + 1 \n\n257\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOur first real post\n\n\n\n\n\n\n\n\nSep 19, 2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2025-09-19_first-post/index.html",
+    "href": "posts/2025-09-19_first-post/index.html",
+    "title": "Our first real post",
+    "section": "",
+    "text": "The palmerpenguins dataset is always useful!\n\nfrom palmerpenguins import load_penguins\nimport pandas as pd\nimport numpy as np\n\npenguins_df = load_penguins()\npenguins_cleaned_df = penguins_df.dropna()\n\nspecies_counts = penguins_cleaned_df['species'].value_counts()\n\n\nShowing Matplotlib Charts\nWe can display matplotlib charts directly:\n\nimport matplotlib.pyplot as plt\n\nplot = plt.figure()\nplot.set_figwidth(6)\nplot.set_figheight(3)\n\nplt.bar(species_counts.index, species_counts.values)\n\n\n\n\n\n\n\n\n\nplot.savefig(\"matplotlib_bar.png\")"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  }
+]
