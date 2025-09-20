@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>A Blog With Python Thanks to Quarto</title>
+<link>https://your-website-url.example.com/data-blog.html</link>
+<atom:link href="https://your-website-url.example.com/data-blog.xml" rel="self" type="application/rss+xml"/>
+<description>A blog built with Quarto</description>
+<generator>quarto-1.8.24</generator>
+<lastBuildDate>Thu, 18 Sep 2025 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Our first real post</title>
+  <link>https://your-website-url.example.com/posts/2025-09-19_first-post/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>The palmerpenguins dataset is <strong>always</strong> useful!</p>
+<div id="9c3a6727" class="cell" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">from</span> palmerpenguins <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> load_penguins</span>
+<span id="cb1-2"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> pandas <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> pd</span>
+<span id="cb1-3"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> np</span>
+<span id="cb1-4"></span>
+<span id="cb1-5">penguins_df <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> load_penguins()</span>
+<span id="cb1-6">penguins_cleaned_df <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> penguins_df.dropna()</span>
+<span id="cb1-7"></span>
+<span id="cb1-8">species_counts <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> penguins_cleaned_df[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'species'</span>].value_counts()</span></code></pre></div></div>
+</div>
+<section id="showing-matplotlib-charts" class="level1">
+<h1>Showing Matplotlib Charts</h1>
+<p>We can display matplotlib charts directly:</p>
+<div id="9d3f0061" class="cell" data-execution_count="2">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> plt</span>
+<span id="cb2-2"></span>
+<span id="cb2-3">plot <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> plt.figure()</span>
+<span id="cb2-4">plot.set_figwidth(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">6</span>)</span>
+<span id="cb2-5">plot.set_figheight(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>)</span>
+<span id="cb2-6"></span>
+<span id="cb2-7">plt.bar(species_counts.index, species_counts.values)</span></code></pre></div></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://your-website-url.example.com/posts/2025-09-19_first-post/index_files/figure-html/cell-3-output-1.png" width="500" height="263" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="9d81dc7b" class="cell" data-execution_count="3">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1">plot.savefig(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"matplotlib_bar.png"</span>)</span></code></pre></div></div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://your-website-url.example.com/posts/2025-09-19_first-post/</guid>
+  <pubDate>Thu, 18 Sep 2025 23:00:00 GMT</pubDate>
+  <media:content url="https://your-website-url.example.com/posts/2025-09-19_first-post/matplotlib_bar.png" medium="image" type="image/png" height="72" width="144"/>
+</item>
+<item>
+  <title>Advice for more complex posts</title>
+  <dc:creator>Charlotte Hadley</dc:creator>
+  <link>https://your-website-url.example.com/posts/2025-09-20_advice-for-more-complex-posts/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>As your blogposts become more complex you might feel it’s overwhelming having all of your code in the index.qmd file</p>
+<p>Great news! It’s easy to run a script file from a blogpost using a code chunk that looks like this:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```{python}</span></span>
+<span id="cb1-2"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># | include: false</span></span>
+<span id="cb1-3"><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%</span>run penguins<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>clustering.py</span>
+<span id="cb1-4"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```</span></span></code></pre></div></div>
+<section id="analysis" class="level2">
+<h2 class="anchored" data-anchor-id="analysis">Analysis</h2>
+<p>This script performs a K-Means clustering on the palmer penguins dataset.</p>
+<p>Out of 333 penguins, our model misclassified 5.0% of the penguins.</p>
+<p>The model has these parameters:</p>
+<ul>
+<li><p>Number of Clusters: 3</p></li>
+<li><p>Max Iterations: 300</p></li>
+</ul>
+<p>This plotnine chart exposes where penguins were misclassified:</p>
+<p><img src="https://your-website-url.example.com/posts/2025-09-20_advice-for-more-complex-posts/scatter-clustering.png" style="width:6in;height:4in"></p>
+
+
+</section>
+
+ ]]></description>
+  <category>advice</category>
+  <category>code</category>
+  <guid>https://your-website-url.example.com/posts/2025-09-20_advice-for-more-complex-posts/</guid>
+  <pubDate>Thu, 14 Aug 2025 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Interactive charts</title>
+  <dc:creator>Charlotte Hadley</dc:creator>
+  <link>https://your-website-url.example.com/posts/2025-09-20_interactive-charts/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Have you heard about <a href="https://jupyter.org/widgets">Jupyter Widgets</a> for embedding interactivite elements in Jupyter documents?</p>
+<p><img src="https://your-website-url.example.com/images/icon-jupyter.png" width="100px"></p>
+<p>Well! Because Quarto uses Jupyter for rendering Python content that means you can also use these widgets in your data blog!</p>
+<p>As an example, here’s a map centered on the Royal Observatory Greenwich:</p>
+<div id="39b42c62" class="cell" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">from</span> ipyleaflet <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> Map, Marker, basemaps, basemap_to_tiles</span>
+<span id="cb1-2">m <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> Map(</span>
+<span id="cb1-3">  basemap<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>basemap_to_tiles(</span>
+<span id="cb1-4">    basemaps.NASAGIBS.ModisTerraTrueColorCR, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"2017-04-08"</span></span>
+<span id="cb1-5">  ),</span>
+<span id="cb1-6">  center<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>(<span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">51.476852</span>, <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.000500</span>),</span>
+<span id="cb1-7">  zoom<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span></span>
+<span id="cb1-8">)</span>
+<span id="cb1-9">m.add_layer(Marker(location<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>(<span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">51.476852</span>, <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.000500</span>)))</span>
+<span id="cb1-10">m</span></code></pre></div></div>
+<div class="cell-output cell-output-display">
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id":"e09b2ea6bbcf47db8f750098e710aa5b","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
+</script>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>code</category>
+  <category>dataviz</category>
+  <guid>https://your-website-url.example.com/posts/2025-09-20_interactive-charts/</guid>
+  <pubDate>Mon, 11 Aug 2025 23:00:00 GMT</pubDate>
+  <media:content url="https://your-website-url.example.com/posts/2025-09-20_interactive-charts/post-preview.png" medium="image" type="image/png" height="72" width="144"/>
+</item>
+</channel>
+</rss>
