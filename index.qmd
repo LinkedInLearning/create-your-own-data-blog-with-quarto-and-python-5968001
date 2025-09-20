@@ -1,19 +1,5 @@
 ---
 title: "A Blog With Python Thanks to Quarto"
-listing:
-  contents: posts
-  feed: true
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: true
 ---
 
-Hello World
-
-```{python}
-2**8 + 1 
-```
+This is an example python-powered data blog built with Quarto as part of Charlotte Hadley's LinkedIn Learning course.

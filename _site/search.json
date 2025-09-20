@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "A Blog With Python Thanks to Quarto",
     "section": "",
-    "text": "Hello World\n\n2**8 + 1 \n\n257\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOur first real post\n\n\n\n\n\n\n\n\nSep 19, 2025\n\n\n\n\n\nNo matching items"
+    "text": "This is an example python-powered data blog built with Quarto as part of Charlotte Hadley’s LinkedIn Learning course."
   },
   {
     "objectID": "posts/2025-09-19_first-post/index.html",
