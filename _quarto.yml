@@ -9,6 +9,9 @@ website:
       - text: "Data blog"
         icon: pie-chart-fill
         href: data-blog.qmd
+      - text: "Side projects"
+        href: side-projects.qmd
+        icon: joystick
     right:
       - text: "Coffee blog"
         icon: cup-hot-fill
