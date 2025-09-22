@@ -1,9 +1,19 @@
 ---
 title: "A Blog With Python Thanks to Quarto"
+listing:
+  contents: posts
+  id: data-blog
 ---
 
-Hello World
+Welcome to my data (and sometime coffee) blog
 
-```{python}
-2**8 + 1 
-```
+::: {#data-blog}
+:::
+
+::: {.column-page-inset}
+![](images/tech-stack.png)
+:::
+
+# About me
+
+I'm a data storyteller
