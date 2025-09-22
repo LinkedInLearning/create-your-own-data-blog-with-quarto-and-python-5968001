@@ -3,6 +3,7 @@ project:
 
 website:
   title: "A Blog With Python Thanks to Quarto"
+  draft-mode: unlinked
   navbar:
     left:
       - text: "Data blog"
