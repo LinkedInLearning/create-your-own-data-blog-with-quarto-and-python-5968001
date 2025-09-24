@@ -13,7 +13,7 @@ typography:
   headings:
     family: Futura
     weight: 400
-    color: primary
+    color: navy
 
 defaults:
   bootstrap:
