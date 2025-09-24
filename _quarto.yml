@@ -16,9 +16,21 @@ website:
       - text: "Coffee blog"
         icon: cup-hot-fill
         href: coffee-blog.qmd
-      - about.qmd
+      - text: "<i class='fa-solid fa-qrcode'></i> About <em>my</em> blog"
+        href: about.qmd
       - icon: github
         href: https://github.com/
+  page-footer:
+    left: |
+          This blog was written by Charlotte Hadley
+          <br>I hope you enjoy it!
+    center:
+     - text: "This works in the same way as the navbar"
+       icon: info-circle-fill
+    right:
+     - icon: github
+       href: https://github.com/charliejhadley/create-your-own-data-blog-with-quarto-and-python-5968001
+       aria-label: GitHub Repo
 format:
   html:
     theme:
