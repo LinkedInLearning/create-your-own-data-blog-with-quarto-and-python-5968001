@@ -21,6 +21,7 @@ website:
       - icon: github
         href: https://github.com/
   page-footer:
+    foreground: rebeccapurple
     left: |
           This blog was written by Charlotte Hadley
           <br>I hope you enjoy it!
@@ -31,12 +32,12 @@ website:
      - icon: github
        href: https://github.com/charliejhadley/create-your-own-data-blog-with-quarto-and-python-5968001
        aria-label: GitHub Repo
+  
 format:
   html:
     theme:
       - cosmo
       - brand
     css: styles.css
-
-
-
+    include-in-header:
+      - text: <script src="https://kit.fontawesome.com/2c8252c536.js" crossorigin="anonymous"></script>
