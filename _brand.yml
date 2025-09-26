@@ -6,6 +6,8 @@ color:
     chart-primary: '#FA8A5B'
     story-primary: '#EB526F'
     other-primary: '#D8F794'
+    light-mode-chart-headings: 'purple'
+    dark-mode-chart-headings: 'orange'
   background: neutral
 
 typography:

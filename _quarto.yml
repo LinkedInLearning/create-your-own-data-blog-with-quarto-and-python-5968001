@@ -36,9 +36,8 @@ website:
 format:
   html:
     theme:
-      - journal
-      - brand
-      - custom.scss
+      light: [brand, journal, custom-light.scss]
+      dark: [brand, darkly, custom-dark.scss]
     css: styles.css
     include-in-header:
       - text: <script src="https://kit.fontawesome.com/2c8252c536.js" crossorigin="anonymous"></script>
