@@ -1,0 +1,33 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/2025-09-23_scss/index.html",
+      "/posts/2025-09-23_brand-yml/index.html",
+      "/posts/2025-09-21_long-running-code/index.html",
+      "/posts/2025-09-21_image-advice/index.html",
+      "/posts/2025-09-20_interactive-charts/index.html",
+      "/posts/2025-09-20_advice-for-more-complex-posts/index.html",
+      "/posts/2025-09-19_first-post/index.html"
+    ]
+  },
+  {
+    "listing": "/coffee-blog.html",
+    "items": [
+      "/coffee-reviews/cortado/index.html",
+      "/coffee-reviews/123-coffee/index.html"
+    ]
+  },
+  {
+    "listing": "/data-blog.html",
+    "items": [
+      "/posts/2025-09-23_scss/index.html",
+      "/posts/2025-09-23_brand-yml/index.html",
+      "/posts/2025-09-21_long-running-code/index.html",
+      "/posts/2025-09-21_image-advice/index.html",
+      "/posts/2025-09-20_interactive-charts/index.html",
+      "/posts/2025-09-20_advice-for-more-complex-posts/index.html",
+      "/posts/2025-09-19_first-post/index.html"
+    ]
+  }
+]
