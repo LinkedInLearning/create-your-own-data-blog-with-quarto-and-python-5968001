@@ -1,12 +1,27 @@
 /*-- scss:defaults --*/
-$h3-font-size: 3rem !default;
+$font-stack: Helvetica, sans-serif;
+$primary-color: green;
+$headings-color: red;
 
 /*-- scss:rules --*/
-h1,
-h2,
-h3,
-h4,
-.category {
-  color: $brand-graph-primary;
-  font-weight: bold;
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+.card {
+  border: 1px solid black;
+  padding: 15px;
+  background-color: lightgrey;
+
+  >h1 {
+    font-weight: bold;
+    color: blue;
+  }
+
+  >p {
+    font-family: Georgia;
+    font-style: italic;
+  }
+
 }
