@@ -3,6 +3,12 @@ project:
 
 website:
   title: "A Blog With Python Thanks to Quarto"
+  site-url: "http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001"
+  image: "/images/logo_blog.png"
+  open-graph:
+    title: "Charlotte's Data Blog"
+    description: "Using Quarto to blog with Python via LinkedIn Learning"
+    image: "/images/logo_blog.png"
   draft-mode: unlinked
   navbar:
     left:

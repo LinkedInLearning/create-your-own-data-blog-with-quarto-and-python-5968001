@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Charlotte Hadley">
+<meta name="dcterms.date" content="2025-08-28">
 
-<title>data-blog – A Blog With Python Thanks to Quarto</title>
+<title>Social cards and open graph – A Blog With Python Thanks to Quarto</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,30 +25,28 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b651517ce65839d647a86e2780455cfb.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ac1b4c6d5a55fa1eed1ef9ac6f192d79.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-a735ebc2cb9e2f84b6928720b39249c4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-ac1b4c6d5a55fa1eed1ef9ac6f192d79.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b651517ce65839d647a86e2780455cfb.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-ac1b4c6d5a55fa1eed1ef9ac6f192d79.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-a735ebc2cb9e2f84b6928720b39249c4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-ac1b4c6d5a55fa1eed1ef9ac6f192d79.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,71 +74,17 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-blog .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-blog'] = new List('listing-blog', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script src="https://kit.fontawesome.com/2c8252c536.js" crossorigin="anonymous"></script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Customise social cards for Quarto!">
+<meta property="og:description" content="It’s slightly more picky than you’d like…">
+<meta property="og:image" content="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-25_social-cards/listing-image.png">
+<meta property="og:site_name" content="A Blog With Python Thanks to Quarto">
+</head>
 
-<link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="A Blog With Python Thanks to Quarto" href="data-blog.xml" data-external="1"></head>
-
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -303,13 +249,13 @@ window.Quarto = {
   </script>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">A Blog With Python Thanks to Quarto</span>
     </a>
   </div>
@@ -320,24 +266,24 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./data-blog.html" aria-current="page"> <i class="bi bi-pie-chart-fill" role="img">
+    <a class="nav-link" href="../../data-blog.html"> <i class="bi bi-pie-chart-fill" role="img">
 </i> 
 <span class="menu-text">Data blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./side-projects.html"> <i class="bi bi-joystick" role="img">
+    <a class="nav-link" href="../../side-projects.html"> <i class="bi bi-joystick" role="img">
 </i> 
 <span class="menu-text">Side projects</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./coffee-blog.html"> <i class="bi bi-cup-hot-fill" role="img">
+    <a class="nav-link" href="../../coffee-blog.html"> <i class="bi bi-cup-hot-fill" role="img">
 </i> 
 <span class="menu-text">Coffee blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text"><i class="fa-solid fa-qrcode"></i> About <em>my</em> blog</span></a>
   </li>  
   <li class="nav-item compact">
@@ -354,292 +300,50 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Social cards and open graph</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Charlotte Hadley </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">August 28, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(10)</span></div><div class="category" data-category="YWR2aWNl">advice <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29kZQ==">code <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZGF0YXZpeg==">dataviz <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
-<p>You’ll find all of my data blogposts here. There are tutorial posts, data explorations, charts and more abstract posts.</p>
-<p>I’ve got a separate listing for my <a href="./coffee-blog.html">coffee posts</a></p>
-<section id="blog" class="level1">
-<h1>Blog</h1>
-<div id="listing-blog" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1758754800000" data-listing-file-modified-sort="1758911475884" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
-<div class="thumbnail"><a href="./posts/2025-09-25_responsive/index.html" class="no-external">
 
-<p class="card-img-top"><img src="posts/2025-09-25_responsive/chart_1.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title" data-anchor-id="blog">
-<a href="./posts/2025-09-25_responsive/index.html" class="no-external">Responsiveness and mobile devices</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/2025-09-25_responsive/index.html" class="no-external">
-Bootstrap’s grid layout system provides true flexibility. It can get quite complicated.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2025-09-25_responsive/index.html" class="no-external">
-<div class="listing-date">
-Sep 25, 2025
-</div>
-<div class="listing-author">
-Charlotte Hadley
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1758668400000" data-listing-file-modified-sort="1758889822388" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="210">
-<div class="thumbnail"><a href="./posts/2025-09-24_dark-mode/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/2025-09-24_dark-mode/index_files/figure-html/cell-2-output-1.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025-09-24_dark-mode/index.html" class="no-external">Dark mode switch and branding</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/2025-09-24_dark-mode/index.html" class="no-external">
-The default toggle is very small. I’ve tweaked the size following advice on GitHub, check out the custom*.scss files for how this was achieved.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2025-09-24_dark-mode/index.html" class="no-external">
-<div class="listing-date">
-Sep 24, 2025
-</div>
-<div class="listing-author">
-Charlotte Hadley
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1758582000000" data-listing-file-modified-sort="1758878488690" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
-<div class="thumbnail"><a href="./posts/2025-09-23_scss/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025-09-23_scss/index.html" class="no-external">SCSS and SASS Variables</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/2025-09-23_scss/index.html" class="no-external">
-Bootstrap exposes over 1400 SASS variables.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2025-09-23_scss/index.html" class="no-external">
-<div class="listing-date">
-Sep 23, 2025
-</div>
-<div class="listing-author">
-Charlotte Hadley
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1758582000000" data-listing-file-modified-sort="1758877558493" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
-<div class="thumbnail"><a href="./posts/2025-09-23_brand-yml/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025-09-23_brand-yml/index.html" class="no-external">_brand.yml for styling your blog and Python output</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/2025-09-23_brand-yml/index.html" class="no-external">
-<span style="color:#FA8A5B">You might want to use custom colours in HTML</span>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2025-09-23_brand-yml/index.html" class="no-external">
-<div class="listing-date">
-Sep 23, 2025
-</div>
-<div class="listing-author">
-Charlotte Hadley
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1758409200000" data-listing-file-modified-sort="1758563856878" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
-<div class="thumbnail"><a href="./posts/2025-09-21_long-running-code/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/2025-09-21_long-running-code/index_files/figure-html/cell-4-output-1.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025-09-21_long-running-code/index.html" class="no-external">A long-running piece of code</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/2025-09-21_long-running-code/index.html" class="no-external">
-To create a post with a tuneable runtime I’m using <code>time.sleep()</code>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2025-09-21_long-running-code/index.html" class="no-external">
-<div class="listing-date">
-Sep 21, 2025
-</div>
-<div class="listing-author">
-Charlotte Hadley
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1758409200000" data-listing-file-modified-sort="1758740667867" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
-<div class="thumbnail"><a href="./posts/2025-09-21_image-advice/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/2025-09-21_image-advice/image-paths.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025-09-21_image-advice/index.html" class="no-external">Image advice</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/2025-09-21_image-advice/index.html" class="no-external">
-Keep images you’ll re-use many times in the images folder at the root of the project.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2025-09-21_image-advice/index.html" class="no-external">
-<div class="listing-date">
-Sep 21, 2025
-</div>
-<div class="listing-author">
-Charlotte Hadley
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="Y29kZSUyQ2RhdGF2aXo=" data-listing-date-sort="1758322800000" data-listing-file-modified-sort="1758381545618" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
-<div class="thumbnail"><a href="./posts/2025-09-20_interactive-charts/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/2025-09-20_interactive-charts/post-preview.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025-09-20_interactive-charts/index.html" class="no-external">Interactive charts</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29kZQ=='); return false;">code</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YXZpeg=='); return false;">dataviz</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/2025-09-20_interactive-charts/index.html" class="no-external">
-Have you heard about Jupyter Widgets for embedding interactivite elements in Jupyter documents?
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2025-09-20_interactive-charts/index.html" class="no-external">
-<div class="listing-date">
-Sep 20, 2025
-</div>
-<div class="listing-author">
-Charlotte Hadley
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="YWR2aWNlJTJDY29kZQ==" data-listing-date-sort="1758322800000" data-listing-file-modified-sort="1758381548296" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="342">
-<div class="thumbnail"><a href="./posts/2025-09-20_advice-for-more-complex-posts/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/2025-09-20_advice-for-more-complex-posts/scatter-clustering.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025-09-20_advice-for-more-complex-posts/index.html" class="no-external">Advice for more complex posts</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('YWR2aWNl'); return false;">advice</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29kZQ=='); return false;">code</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/2025-09-20_advice-for-more-complex-posts/index.html" class="no-external">
-As your blogposts become more complex you might feel it’s overwhelming having all of your code in the index.qmd file
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2025-09-20_advice-for-more-complex-posts/index.html" class="no-external">
-<div class="listing-date">
-Sep 20, 2025
-</div>
-<div class="listing-author">
-Charlotte Hadley
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1758236400000" data-listing-file-modified-sort="1758376830992" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<div class="thumbnail"><a href="./posts/2025-09-19_first-post/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/2025-09-19_first-post/matplotlib_bar.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025-09-19_first-post/index.html" class="no-external">Our first real post</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/2025-09-19_first-post/index.html" class="no-external">
-The palmerpenguins dataset is <strong>always</strong> useful!
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2025-09-19_first-post/index.html" class="no-external">
-<div class="listing-date">
-Sep 19, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="9" data-listing-date-sort="1756335600000" data-listing-file-modified-sort="1758911743684" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="49">
-<div class="thumbnail"><a href="./posts/2025-09-25_social-cards/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/2025-09-25_social-cards/listing-image.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025-09-25_social-cards/index.html" class="no-external">Social cards and open graph</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/2025-09-25_social-cards/index.html" class="no-external">
-If a post has an open-graph title and description in the YAML header that content will be used in <em>most</em> social platforms - including LinkedIn.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/2025-09-25_social-cards/index.html" class="no-external">
-<div class="listing-date">
-Aug 28, 2025
-</div>
-<div class="listing-author">
-Charlotte Hadley
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
+<p>If a post has an open-graph title and description in the YAML header that content will be used in <em>most</em> social platforms - including LinkedIn.</p>
+<p>The image option in the YAML header is used for both populating the listings within the blog <strong>and</strong> social cards when the page is shared.</p>
 
 
-
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
