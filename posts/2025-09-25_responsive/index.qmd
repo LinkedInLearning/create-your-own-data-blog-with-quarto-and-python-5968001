@@ -6,11 +6,11 @@ date: "2025-09-25"
 
 [Bootstrap's grid layout system](https://quarto.org/docs/output-formats/page-layout.html#css-grid) provides true flexibility. It can get quite complicated.
 
-::: {.grid}
+::: {.grid .column-screen}
 
-::: {.g-col-6 .g-col-md-4}
+::: {.g-col-12 .g-col-md-4}
 ```{python}
-#| echo: false
+# | echo: false
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -18,8 +18,10 @@ import numpy as np
 mean = 0
 std_dev = 1
 x = np.linspace(mean - 4*std_dev, mean + 4*std_dev, 1000)
-y_light = (1/(std_dev * np.sqrt(2 * np.pi))) * np.exp(-0.5 * ((x - mean) / std_dev)**2)
-y_dark = -(1/(std_dev * np.sqrt(2 * np.pi))) * np.exp(-0.5 * ((x - mean) / std_dev)**2)
+y_light = (1/(std_dev * np.sqrt(2 * np.pi))) * \
+    np.exp(-0.5 * ((x - mean) / std_dev)**2)
+y_dark = -(1/(std_dev * np.sqrt(2 * np.pi))) * \
+    np.exp(-0.5 * ((x - mean) / std_dev)**2)
 
 plot_1 = plt.figure()
 plt.plot(x, y_light)

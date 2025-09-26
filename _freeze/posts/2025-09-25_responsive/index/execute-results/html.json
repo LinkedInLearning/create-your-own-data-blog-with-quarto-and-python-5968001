@@ -1,8 +1,8 @@
 {
-  "hash": "11894b76b435eda5b2cff86b92bf614b",
+  "hash": "5a96d1e14fd93fc49692e4ee08da438e",
   "result": {
     "engine": "jupyter",
-    "markdown": "---\ntitle: \"Responsiveness and mobile devices\"\nauthor: \"Charlotte Hadley\"\ndate: \"2025-09-25\"\n---\n\n[Bootstrap's grid layout system](https://quarto.org/docs/output-formats/page-layout.html#css-grid) provides true flexibility. It can get quite complicated.\n\n::: {.grid}\n\n::: {.g-col-6 .g-col-md-4}\n\n\n\n![](chart_1.png)\n:::\n\n::: {.g-col-6 .g-col-md-4}\n\n\n\n![](chart_2.png)\n:::\n\n::: {.g-col-6 .g-col-md-4}\n\n\n\n![](chart_3.png)\n:::\n\n:::\n\n# Quarto's own formats\n\nThere are several article layouts that give you more of the screen.\n\n::: {.aside}\nNote you can use these [Quarto layouts](https://quarto.org/docs/authoring/article-layout.html) in any HTML format.\n:::\n\n<hr/>\n\n::: {.column-screen}\n![](../../images/tech-stack.png)\n:::\n\n",
+    "markdown": "---\ntitle: \"Responsiveness and mobile devices\"\nauthor: \"Charlotte Hadley\"\ndate: \"2025-09-25\"\n---\n\n[Bootstrap's grid layout system](https://quarto.org/docs/output-formats/page-layout.html#css-grid) provides true flexibility. It can get quite complicated.\n\n::: {.grid .column-screen}\n\n::: {.g-col-12 .g-col-md-4}\n\n\n\n![](chart_1.png)\n:::\n\n::: {.g-col-6 .g-col-md-4}\n\n\n\n![](chart_2.png)\n:::\n\n::: {.g-col-6 .g-col-md-4}\n\n\n\n![](chart_3.png)\n:::\n\n:::\n\n# Quarto's own formats\n\nThere are several article layouts that give you more of the screen.\n\n::: {.aside}\nNote you can use these [Quarto layouts](https://quarto.org/docs/authoring/article-layout.html) in any HTML format.\n:::\n\n<hr/>\n\n::: {.column-screen}\n![](../../images/tech-stack.png)\n:::\n\n",
     "supporting": [
       "index_files"
     ],
