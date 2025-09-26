@@ -4,6 +4,7 @@ listing:
   contents: posts
   id: data-blog
   categories: true
+  sort: "date desc"
 ---
 
 Welcome to my data (and sometime coffee) blog
