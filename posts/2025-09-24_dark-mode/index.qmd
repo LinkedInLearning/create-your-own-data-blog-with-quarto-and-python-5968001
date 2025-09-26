@@ -42,6 +42,22 @@ plt.title('DARK MODE')
 plt.show()
 ```
 
+
+```{python}
+# | renderings: [light, dark]
+print("light mode")
+
+print("dark mode")
+
+plt.figure()
+plt.title("light mode")
+plt.show()
+
+plt.figure()
+plt.title("dark mode")
+plt.show()
+```
+
 ## Accessing colours from brand palette
 
 There is limited direct support in _brand.yml for light/dark colours. It might be easiest to explicitly name colours in the palette and access that with the `brand_yml` Python package.
