@@ -4,4 +4,4 @@ date: "2025-09-23"
 author: "Charlotte Hadley"
 ---
 
-<span>You might want to use custm colours in HTML</span>
+<span>You might want to use custom colours in HTML</span>
