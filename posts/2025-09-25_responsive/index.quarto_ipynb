@@ -16,7 +16,7 @@
         "\n",
         "::: {.g-col-12 .g-col-md-4}"
       ],
-      "id": "be37d451"
+      "id": "9fb142d0"
     },
     {
       "cell_type": "code",
@@ -41,7 +41,7 @@
         "plt.close()\n",
         "plot_1.savefig(\"chart_1.png\")"
       ],
-      "id": "f7f159a1",
+      "id": "b9112e14",
       "execution_count": null,
       "outputs": []
     },
@@ -54,7 +54,7 @@
         "\n",
         "::: {.g-col-6 .g-col-md-4}"
       ],
-      "id": "30bd078a"
+      "id": "43ab8c54"
     },
     {
       "cell_type": "code",
@@ -67,7 +67,7 @@
         "plt.close()\n",
         "plot_2.savefig(\"chart_2.png\")"
       ],
-      "id": "9fe7a9ee",
+      "id": "51a7c3f5",
       "execution_count": null,
       "outputs": []
     },
@@ -80,7 +80,7 @@
         "\n",
         "::: {.g-col-6 .g-col-md-4}"
       ],
-      "id": "5d63b206"
+      "id": "999be40b"
     },
     {
       "cell_type": "code",
@@ -93,7 +93,7 @@
         "plt.close()\n",
         "plot_3.savefig(\"chart_3.png\")"
       ],
-      "id": "9e8f9f3d",
+      "id": "eaf94420",
       "execution_count": null,
       "outputs": []
     },
@@ -120,7 +120,7 @@
         "![](../../images/tech-stack.png)\n",
         ":::"
       ],
-      "id": "bb36c82a"
+      "id": "ba832b66"
     }
   ],
   "metadata": {

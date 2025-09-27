@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>A Blog With Python Thanks to Quarto</title>
+<link>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/data-blog.html</link>
+<atom:link href="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/data-blog.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<image>
+<url>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/images/logo_blog.png</url>
+<title>A Blog With Python Thanks to Quarto</title>
+<link>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/data-blog.html</link>
+</image>
+<generator>quarto-1.8.24</generator>
+<lastBuildDate>Wed, 24 Sep 2025 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Responsiveness and mobile devices</title>
+  <dc:creator>Charlotte Hadley</dc:creator>
+  <link>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-25_responsive/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p><a href="https://quarto.org/docs/output-formats/page-layout.html#css-grid">Bootstrap’s grid layout system</a> provides true flexibility. It can get quite complicated.</p>
+<div class="grid column-screen">
+<div class="g-col-12 g-col-md-4">
+<p><img src="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-25_responsive/chart_1.png" class="img-fluid"></p>
+</div>
+<div class="g-col-6 g-col-md-4">
+<p><img src="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-25_responsive/chart_2.png" class="img-fluid"></p>
+</div>
+<div class="g-col-6 g-col-md-4">
+<p><img src="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-25_responsive/chart_3.png" class="img-fluid"></p>
+</div>
+</div>
+<section id="quartos-own-formats" class="level1 page-columns page-full">
+<h1>Quarto’s own formats</h1>
+<p>There are several article layouts that give you more of the screen.</p>
+
+<div class="no-row-height column-margin column-container"><div class="margin-aside">
+<p>Note you can use these <a href="https://quarto.org/docs/authoring/article-layout.html">Quarto layouts</a> in any HTML format.</p>
+</div></div><hr>
+<div class="column-screen">
+<p><img src="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/images/tech-stack.png" class="img-fluid"></p>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <guid>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-25_responsive/</guid>
+  <pubDate>Wed, 24 Sep 2025 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Dark mode switch and branding</title>
+  <dc:creator>Charlotte Hadley</dc:creator>
+  <link>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-24_dark-mode/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<section id="customising-the-toggle" class="level2">
+<h2 class="anchored" data-anchor-id="customising-the-toggle">Customising the toggle</h2>
+<p>The default toggle is very small. I’ve tweaked the size <a href="https://github.com/quarto-dev/quarto-cli/discussions/7924#discussioncomment-7987263">following advice on GitHub</a>, check out the custom*.scss files for how this was achieved.</p>
+</section>
+<section id="python-rendering-based-on-dark-mode" class="level2">
+<h2 class="anchored" data-anchor-id="python-rendering-based-on-dark-mode">Python rendering based on dark mode</h2>
+<p>The code cell option rendering allows the output to switch based on the dark mode toggle.</p>
+<div id="e8ddad50" class="cell" data-renderings="[&quot;light&quot;,&quot;dark&quot;]" data-execution_count="1">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> plt</span>
+<span id="cb1-2"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> np</span>
+<span id="cb1-3"></span>
+<span id="cb1-4"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> np</span>
+<span id="cb1-5"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> plt</span>
+<span id="cb1-6"></span>
+<span id="cb1-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Parameters for the normal distribution</span></span>
+<span id="cb1-8">mean <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span></span>
+<span id="cb1-9">std_dev <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span></span>
+<span id="cb1-10">x <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.linspace(mean <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>std_dev, mean <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>std_dev, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1000</span>)</span>
+<span id="cb1-11">y_light <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> (<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span>(std_dev <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> np.sqrt(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> np.pi))) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> np.exp(<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.5</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> ((x <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> mean) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span> std_dev)<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">**</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>)</span>
+<span id="cb1-12">y_dark <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span>(std_dev <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> np.sqrt(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> np.pi))) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> np.exp(<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.5</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> ((x <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> mean) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span> std_dev)<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">**</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>)</span>
+<span id="cb1-13"></span>
+<span id="cb1-14"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Plotting</span></span>
+<span id="cb1-15">plt.figure(figsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">8</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>))</span>
+<span id="cb1-16">plt.plot(x, y_light, label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'LIGHT MODE'</span>)</span>
+<span id="cb1-17">plt.title(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'LIGHT MODE'</span>)</span>
+<span id="cb1-18">plt.show()</span>
+<span id="cb1-19"></span>
+<span id="cb1-20">plt.figure(figsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">8</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>))</span>
+<span id="cb1-21">ax <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> plt.axes()</span>
+<span id="cb1-22">ax.set_facecolor(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'silver'</span>)</span>
+<span id="cb1-23">plt.plot(x, y_dark, label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'DARK MODE'</span>)</span>
+<span id="cb1-24">plt.title(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'DARK MODE'</span>)</span>
+<span id="cb1-25">plt.show()</span></code></pre></div></div>
+</details>
+<div class="light-content">
+<p><img src="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-24_dark-mode/index_files/figure-html/cell-2-output-1.png" width="653" height="431"></p>
+</div>
+<div class="dark-content">
+<p><img src="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-24_dark-mode/index_files/figure-html/cell-2-output-2.png" width="665" height="431"></p>
+</div>
+</div>
+<div id="bb9eedca" class="cell" data-renderings="[&quot;light&quot;,&quot;dark&quot;]" data-execution_count="2">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"light mode"</span>)</span>
+<span id="cb2-2"></span>
+<span id="cb2-3"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"dark mode"</span>)</span>
+<span id="cb2-4"></span>
+<span id="cb2-5">plt.figure()</span>
+<span id="cb2-6">plt.title(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"light mode"</span>)</span>
+<span id="cb2-7">plt.show()</span>
+<span id="cb2-8"></span>
+<span id="cb2-9">plt.figure()</span>
+<span id="cb2-10">plt.title(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"dark mode"</span>)</span>
+<span id="cb2-11">plt.show()</span></code></pre></div></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>light mode
+dark mode</code></pre>
+</div>
+<div class="light-content">
+<p><img src="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-24_dark-mode/index_files/figure-html/cell-3-output-2.png" width="581" height="431"></p>
+</div>
+<div class="dark-content">
+<p><img src="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-24_dark-mode/index_files/figure-html/cell-3-output-3.png" width="581" height="431"></p>
+</div>
+</div>
+</section>
+<section id="accessing-colours-from-brand-palette" class="level2">
+<h2 class="anchored" data-anchor-id="accessing-colours-from-brand-palette">Accessing colours from brand palette</h2>
+<p>There is limited direct support in _brand.yml for light/dark colours. It might be easiest to explicitly name colours in the palette and access that with the <code>brand_yml</code> Python package.</p>
+<div id="9f2cdebd" class="cell" data-renderings="[&quot;light&quot;,&quot;dark&quot;]" data-execution_count="3">
+<div class="light-content">
+<p><img src="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-24_dark-mode/index_files/figure-html/cell-4-output-1.png" width="653" height="431"></p>
+</div>
+<div class="dark-content">
+<p><img src="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-24_dark-mode/index_files/figure-html/cell-4-output-2.png" width="665" height="431"></p>
+</div>
+</div>
+</section>
+<section id="dont-be-scared-of-the-dark" class="level1 dark-content">
+<h1>Don’t be scared of the dark</h1>
+<p>You can use the <code>light-content</code> and <code>dark-content</code> classes to hide/show entire sections of your .qmd files based on the toggle state.</p>
+</section>
+
+
+
+ ]]></description>
+  <guid>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-24_dark-mode/</guid>
+  <pubDate>Tue, 23 Sep 2025 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>SCSS and SASS Variables</title>
+  <dc:creator>Charlotte Hadley</dc:creator>
+  <link>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-23_scss/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p>Bootstrap exposes <a href="https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss">over 1400 SASS variables</a>.</p>
+<p>These can be used in .scss files where we can also apply nested rules.</p>
+<section id="customising-cards-with-nested-rules" class="level1">
+<h1>Customising cards with nested rules</h1>
+</section>
+<section id="heading" class="level1 card">
+<h1>Heading</h1>
+<p>Take a look at the <code>custom.scss</code> file to understand how this is formatted.</p>
+</section>
+
+
+
+ ]]></description>
+  <guid>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-23_scss/</guid>
+  <pubDate>Mon, 22 Sep 2025 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>_brand.yml for styling your blog and Python output</title>
+  <dc:creator>Charlotte Hadley</dc:creator>
+  <link>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-23_brand-yml/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p><span style="color:#FA8A5B">You might want to use custom colours in HTML</span></p>
+<div id="73575277" class="cell" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">from</span> brand_yml <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> Brand</span>
+<span id="cb1-2">brand <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> Brand.from_yaml(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"../../_brand.yml"</span>)</span>
+<span id="cb1-3">brand.color.palette[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'story-primary'</span>]</span></code></pre></div></div>
+<div class="cell-output cell-output-display" data-execution_count="1">
+<pre><code>'#EB526F'</code></pre>
+</div>
+</div>
+<p>Red isn’t a great background colour.</p>
+
+
+
+ ]]></description>
+  <guid>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-23_brand-yml/</guid>
+  <pubDate>Mon, 22 Sep 2025 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>A long-running piece of code</title>
+  <dc:creator>Charlotte Hadley</dc:creator>
+  <link>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-21_long-running-code/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p>To create a post with a tuneable runtime I’m using <code>time.sleep()</code></p>
+<div id="c3b635fc" class="cell" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">from</span> time <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> sleep</span>
+<span id="cb1-2">sleep(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>)</span>
+<span id="cb1-3"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Hello sleepy world"</span>)</span></code></pre></div></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Hello sleepy world</code></pre>
+</div>
+</div>
+<div id="af83929e" class="cell" data-execution_count="3">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">from</span> plotnine <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> ggplot, geom_point, aes, stat_smooth, facet_wrap</span>
+<span id="cb3-2">(</span>
+<span id="cb3-3">    ggplot(penguins_cleaned, aes(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"bill_length_mm"</span>,</span>
+<span id="cb3-4">           <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"flipper_length_mm"</span>, color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"factor(island)"</span>))</span>
+<span id="cb3-5">    <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> geom_point()</span>
+<span id="cb3-6">)</span></code></pre></div></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-21_long-running-code/index_files/figure-html/cell-4-output-1.png" width="672" height="480" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <guid>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-21_long-running-code/</guid>
+  <pubDate>Sat, 20 Sep 2025 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Image advice</title>
+  <dc:creator>Charlotte Hadley</dc:creator>
+  <link>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-21_image-advice/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p>Keep images you’ll re-use many times in the images folder at the root of the project.</p>
+<p><img src="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/images/tech-stack.png" width="100%"></p>
+
+
+
+ ]]></description>
+  <guid>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-21_image-advice/</guid>
+  <pubDate>Sat, 20 Sep 2025 23:00:00 GMT</pubDate>
+  <media:content url="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-21_image-advice/image-paths.png" medium="image" type="image/png" height="153" width="144"/>
+</item>
+<item>
+  <title>Interactive charts</title>
+  <dc:creator>Charlotte Hadley</dc:creator>
+  <link>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-20_interactive-charts/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p>Have you heard about <a href="https://jupyter.org/widgets">Jupyter Widgets</a> for embedding interactivite elements in Jupyter documents?</p>
+<p><img src="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/images/icon-jupyter.png" width="100px"></p>
+<p>Well! Because Quarto uses Jupyter for rendering Python content that means you can also use these widgets in your data blog!</p>
+<p>As an example, here’s a map centered on the Royal Observatory Greenwich:</p>
+<div id="663d0167" class="cell" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">from</span> ipyleaflet <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> Map, Marker, basemaps, basemap_to_tiles</span>
+<span id="cb1-2">m <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> Map(</span>
+<span id="cb1-3">  basemap<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>basemap_to_tiles(</span>
+<span id="cb1-4">    basemaps.NASAGIBS.ModisTerraTrueColorCR, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"2017-04-08"</span></span>
+<span id="cb1-5">  ),</span>
+<span id="cb1-6">  center<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>(<span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">51.476852</span>, <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.000500</span>),</span>
+<span id="cb1-7">  zoom<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span></span>
+<span id="cb1-8">)</span>
+<span id="cb1-9">m.add_layer(Marker(location<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>(<span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">51.476852</span>, <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.000500</span>)))</span>
+<span id="cb1-10">m</span></code></pre></div></div>
+<div class="cell-output cell-output-display">
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id":"38cf96cc2abc46dfb14820d490d7883d","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
+</script>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>code</category>
+  <category>dataviz</category>
+  <guid>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-20_interactive-charts/</guid>
+  <pubDate>Fri, 19 Sep 2025 23:00:00 GMT</pubDate>
+  <media:content url="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-20_interactive-charts/post-preview.png" medium="image" type="image/png" height="72" width="144"/>
+</item>
+<item>
+  <title>Advice for more complex posts</title>
+  <dc:creator>Charlotte Hadley</dc:creator>
+  <link>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-20_advice-for-more-complex-posts/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p>As your blogposts become more complex you might feel it’s overwhelming having all of your code in the index.qmd file</p>
+<p>Great news! It’s easy to run a script file from a blogpost using a code chunk that looks like this:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```{python}</span></span>
+<span id="cb1-2"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># | include: false</span></span>
+<span id="cb1-3"><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%</span>run penguins<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>clustering.py</span>
+<span id="cb1-4"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```</span></span></code></pre></div></div>
+<section id="analysis" class="level2">
+<h2 class="anchored" data-anchor-id="analysis">Analysis</h2>
+<p>This script performs a K-Means clustering on the palmer penguins dataset.</p>
+<p>Out of 333 penguins, our model misclassified 5.0% of the penguins.</p>
+<p>The model has these parameters:</p>
+<ul>
+<li><p>Number of Clusters: 3</p></li>
+<li><p>Max Iterations: 300</p></li>
+</ul>
+<p>This plotnine chart exposes where penguins were misclassified:</p>
+<p><img src="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-20_advice-for-more-complex-posts/scatter-clustering.png" style="width:6in;height:4in"></p>
+
+
+</section>
+
+ ]]></description>
+  <category>advice</category>
+  <category>code</category>
+  <guid>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-20_advice-for-more-complex-posts/</guid>
+  <pubDate>Fri, 19 Sep 2025 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Our first real post</title>
+  <link>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-19_first-post/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p>The palmerpenguins dataset is <strong>always</strong> useful!</p>
+<div id="194aba07" class="cell" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">from</span> palmerpenguins <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> load_penguins</span>
+<span id="cb1-2"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> pandas <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> pd</span>
+<span id="cb1-3"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> np</span>
+<span id="cb1-4"></span>
+<span id="cb1-5">penguins_df <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> load_penguins()</span>
+<span id="cb1-6">penguins_cleaned_df <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> penguins_df.dropna()</span>
+<span id="cb1-7"></span>
+<span id="cb1-8">species_counts <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> penguins_cleaned_df[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'species'</span>].value_counts()</span></code></pre></div></div>
+</div>
+<section id="showing-matplotlib-charts" class="level1">
+<h1>Showing Matplotlib Charts</h1>
+<p>We can display matplotlib charts directly:</p>
+<div id="d298112f" class="cell" data-execution_count="2">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> plt</span>
+<span id="cb2-2"></span>
+<span id="cb2-3">plot <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> plt.figure()</span>
+<span id="cb2-4">plot.set_figwidth(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">6</span>)</span>
+<span id="cb2-5">plot.set_figheight(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>)</span>
+<span id="cb2-6"></span>
+<span id="cb2-7">plt.bar(species_counts.index, species_counts.values)</span></code></pre></div></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-19_first-post/index_files/figure-html/cell-3-output-1.png" width="500" height="263" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="745f9a7e" class="cell" data-execution_count="3">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1">plot.savefig(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"matplotlib_bar.png"</span>)</span></code></pre></div></div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <guid>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-19_first-post/</guid>
+  <pubDate>Thu, 18 Sep 2025 23:00:00 GMT</pubDate>
+  <media:content url="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-19_first-post/matplotlib_bar.png" medium="image" type="image/png" height="72" width="144"/>
+</item>
+<item>
+  <title>Social cards and open graph</title>
+  <dc:creator>Charlotte Hadley</dc:creator>
+  <link>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-26_social-cards/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p>If a post has an open-graph title and description in the YAML header that content will be used in <em>most</em> social platforms - including LinkedIn.</p>
+<p>The image option in the YAML header is used for both populating the listings within the blog <strong>and</strong> social cards when the page is shared.</p>
+
+
+
+ ]]></description>
+  <guid>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-26_social-cards/</guid>
+  <pubDate>Wed, 27 Aug 2025 23:00:00 GMT</pubDate>
+  <media:content url="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-26_social-cards/listing-image.png" medium="image" type="image/png" height="67" width="144"/>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>A Blog With Python Thanks to Quarto</title>
+<link>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/coffee-blog.html</link>
+<atom:link href="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/coffee-blog.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<image>
+<url>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/images/logo_blog.png</url>
+<title>A Blog With Python Thanks to Quarto</title>
+<link>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/coffee-blog.html</link>
+</image>
+<generator>quarto-1.8.24</generator>
+<lastBuildDate>Thu, 07 Aug 2025 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Cortado: When and why?</title>
+  <link>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/coffee-reviews/cortado/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I really enjoy a cortado. But they’re very disappointing when made badly, so my rule is I only order them after an initial visit to a cafe or a very strong endorsement from a friend.</p>
+
+
+
+ ]]></description>
+  <guid>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/coffee-reviews/cortado/</guid>
+  <pubDate>Thu, 07 Aug 2025 23:00:00 GMT</pubDate>
+  <media:content url="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/coffee-reviews/cortado/post-preview.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>1, 2, 3 Coffee: My new favourite coffee</title>
+  <link>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/coffee-reviews/123-coffee/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is a fictional review for a fictional coffee house call “1, 2, 3 Coffee”…</p>
+
+
+
+ ]]></description>
+  <guid>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/coffee-reviews/123-coffee/</guid>
+  <pubDate>Thu, 07 Aug 2025 23:00:00 GMT</pubDate>
+  <media:content url="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/coffee-reviews/123-coffee/post-preview.png" medium="image" type="image/png" height="102" width="144"/>
+</item>
+</channel>
+</rss>
