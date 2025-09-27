@@ -6,6 +6,7 @@ image: "listing-image.png"
 open-graph:
     description: "It's slightly more picky than you'd like..."
     title: "Customise social cards for Quarto!"
+categories: [advice, styling]
 ---
 
 If a post has an open-graph title and description in the YAML header that content will be used in *most* social platforms - including LinkedIn.

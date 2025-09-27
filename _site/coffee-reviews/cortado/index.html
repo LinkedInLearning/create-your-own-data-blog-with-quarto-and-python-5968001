@@ -77,6 +77,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Charlotte’s Data Blog">
+<meta property="og:description" content="Using Quarto to blog with Python via LinkedIn Learning">
+<meta property="og:image" content="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/coffee-reviews/cortado/post-preview.jpg">
+<meta property="og:site_name" content="A Blog With Python Thanks to Quarto">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -306,7 +310,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Cortado: When and why?</h1>
-</div>
+  <div class="quarto-categories">
+    <div class="quarto-category">Types of coffee</div>
+  </div>
+  </div>
 
 
 
@@ -419,7 +426,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("http:\/\/linkedinlearning\.github\.io\/create-your-own-data-blog-with-quarto-and-python-5968001");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

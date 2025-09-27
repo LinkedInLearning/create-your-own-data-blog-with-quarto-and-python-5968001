@@ -2,6 +2,7 @@
 title: "_brand.yml for styling your blog and Python output"
 date: "2025-09-23"
 author: "Charlotte Hadley"
+categories: [styling, code]
 ---
 
 <span style='color:{{<brand color chart-primary>}}'>You might want to use custom colours in HTML</span>

@@ -2,6 +2,7 @@
 title: "SCSS and SASS Variables"
 date: "2025-09-23"
 author: "Charlotte Hadley"
+categories: [advice, styling]
 ---
 
 Bootstrap exposes [over 1400 SASS variables](https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss).

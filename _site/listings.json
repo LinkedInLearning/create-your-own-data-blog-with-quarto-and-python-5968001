@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2025-09-26_disable-image-discovery/index.html",
+      "/posts/2025-09-26_social-cards/index.html",
       "/posts/2025-09-25_responsive/index.html",
       "/posts/2025-09-24_dark-mode/index.html",
       "/posts/2025-09-23_scss/index.html",
@@ -10,8 +12,7 @@
       "/posts/2025-09-21_image-advice/index.html",
       "/posts/2025-09-20_interactive-charts/index.html",
       "/posts/2025-09-20_advice-for-more-complex-posts/index.html",
-      "/posts/2025-09-19_first-post/index.html",
-      "/posts/2025-09-25_social-cards/index.html"
+      "/posts/2025-09-19_first-post/index.html"
     ]
   },
   {
@@ -35,5 +36,9 @@
       "/posts/2025-09-19_first-post/index.html",
       "/posts/2025-09-25_social-cards/index.html"
     ]
+  },
+  {
+    "listing": "/coffee-reviews/cortado/index.html",
+    "items": []
   }
 ]

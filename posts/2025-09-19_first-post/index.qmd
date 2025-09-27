@@ -2,6 +2,7 @@
 title: "Our first real post"
 date: "2025-09-19"
 image: "matplotlib_bar.png"
+categories: [advice, code]
 ---
 
 The palmerpenguins dataset is **always** useful!
