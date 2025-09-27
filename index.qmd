@@ -3,7 +3,8 @@ title: "A Blog With Python Thanks to Quarto"
 listing:
   contents: posts
   id: data-blog
-  categories: cloud
+  categories: numbered
+  type: grid
   sort: "date desc"
 ---
 
