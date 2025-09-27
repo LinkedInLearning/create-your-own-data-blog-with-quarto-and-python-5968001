@@ -34,6 +34,8 @@
 
 
  ]]></description>
+  <category>advice</category>
+  <category>images</category>
   <guid>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-26_disable-image-discovery/</guid>
   <pubDate>Thu, 25 Sep 2025 23:00:00 GMT</pubDate>
 </item>
@@ -54,6 +56,8 @@
 
 
  ]]></description>
+  <category>advice</category>
+  <category>styling</category>
   <guid>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-26_social-cards/</guid>
   <pubDate>Thu, 25 Sep 2025 23:00:00 GMT</pubDate>
   <media:content url="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-26_social-cards/listing-image.png" medium="image" type="image/png" height="67" width="144"/>
@@ -96,6 +100,8 @@
 </section>
 
  ]]></description>
+  <category>advice</category>
+  <category>styling</category>
   <guid>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-25_responsive/</guid>
   <pubDate>Wed, 24 Sep 2025 23:00:00 GMT</pubDate>
 </item>
@@ -117,7 +123,7 @@
 <section id="python-rendering-based-on-dark-mode" class="level2">
 <h2 class="anchored" data-anchor-id="python-rendering-based-on-dark-mode">Python rendering based on dark mode</h2>
 <p>The code cell option rendering allows the output to switch based on the dark mode toggle.</p>
-<div id="e8ddad50" class="cell" data-renderings="[&quot;light&quot;,&quot;dark&quot;]" data-execution_count="1">
+<div id="d7d9aae8" class="cell" data-renderings="[&quot;light&quot;,&quot;dark&quot;]" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
@@ -283,7 +289,7 @@ font-style: inherit;">'DARK MODE'</span>)</span>
 <p><img src="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-24_dark-mode/index_files/figure-html/cell-2-output-2.png" width="665" height="431"></p>
 </div>
 </div>
-<div id="bb9eedca" class="cell" data-renderings="[&quot;light&quot;,&quot;dark&quot;]" data-execution_count="2">
+<div id="34354b2b" class="cell" data-renderings="[&quot;light&quot;,&quot;dark&quot;]" data-execution_count="2">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="bu" style="color: null;
 background-color: null;
 font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
@@ -322,7 +328,7 @@ dark mode</code></pre>
 <section id="accessing-colours-from-brand-palette" class="level2">
 <h2 class="anchored" data-anchor-id="accessing-colours-from-brand-palette">Accessing colours from brand palette</h2>
 <p>There is limited direct support in _brand.yml for light/dark colours. It might be easiest to explicitly name colours in the palette and access that with the <code>brand_yml</code> Python package.</p>
-<div id="9f2cdebd" class="cell" data-renderings="[&quot;light&quot;,&quot;dark&quot;]" data-execution_count="3">
+<div id="642796e0" class="cell" data-renderings="[&quot;light&quot;,&quot;dark&quot;]" data-execution_count="3">
 <div class="light-content">
 <p><img src="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-24_dark-mode/index_files/figure-html/cell-4-output-1.png" width="653" height="431"></p>
 </div>
@@ -339,6 +345,9 @@ dark mode</code></pre>
 
 
  ]]></description>
+  <category>advice</category>
+  <category>styling</category>
+  <category>code</category>
   <guid>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-24_dark-mode/</guid>
   <pubDate>Tue, 23 Sep 2025 23:00:00 GMT</pubDate>
 </item>
@@ -366,6 +375,8 @@ dark mode</code></pre>
 
 
  ]]></description>
+  <category>advice</category>
+  <category>styling</category>
   <guid>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-23_scss/</guid>
   <pubDate>Mon, 22 Sep 2025 23:00:00 GMT</pubDate>
 </item>
@@ -381,7 +392,7 @@ dark mode</code></pre>
 
 
 <p><span style="color:#FA8A5B">You might want to use custom colours in HTML</span></p>
-<div id="73575277" class="cell" data-execution_count="1">
+<div id="0ee57118" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">from</span> brand_yml <span class="im" style="color: #00769E;
@@ -404,6 +415,8 @@ font-style: inherit;">'story-primary'</span>]</span></code></pre></div></div>
 
 
  ]]></description>
+  <category>styling</category>
+  <category>code</category>
   <guid>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-23_brand-yml/</guid>
   <pubDate>Mon, 22 Sep 2025 23:00:00 GMT</pubDate>
 </item>
@@ -419,7 +432,7 @@ font-style: inherit;">'story-primary'</span>]</span></code></pre></div></div>
 
 
 <p>To create a post with a tuneable runtime I’m using <code>time.sleep()</code></p>
-<div id="c3b635fc" class="cell" data-execution_count="1">
+<div id="8467f8df" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">from</span> time <span class="im" style="color: #00769E;
@@ -437,7 +450,7 @@ font-style: inherit;">"Hello sleepy world"</span>)</span></code></pre></div></di
 <pre><code>Hello sleepy world</code></pre>
 </div>
 </div>
-<div id="af83929e" class="cell" data-execution_count="3">
+<div id="363ae232" class="cell" data-execution_count="3">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">from</span> plotnine <span class="im" style="color: #00769E;
@@ -470,6 +483,8 @@ font-style: inherit;">+</span> geom_point()</span>
 
 
  ]]></description>
+  <category>advice</category>
+  <category>code</category>
   <guid>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-21_long-running-code/</guid>
   <pubDate>Sat, 20 Sep 2025 23:00:00 GMT</pubDate>
 </item>
@@ -490,6 +505,9 @@ font-style: inherit;">+</span> geom_point()</span>
 
 
  ]]></description>
+  <category>advice</category>
+  <category>code</category>
+  <category>images</category>
   <guid>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-21_image-advice/</guid>
   <pubDate>Sat, 20 Sep 2025 23:00:00 GMT</pubDate>
   <media:content url="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-21_image-advice/image-paths.png" medium="image" type="image/png" height="153" width="144"/>
@@ -509,7 +527,7 @@ font-style: inherit;">+</span> geom_point()</span>
 <p><img src="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/images/icon-jupyter.png" width="100px"></p>
 <p>Well! Because Quarto uses Jupyter for rendering Python content that means you can also use these widgets in your data blog!</p>
 <p>As an example, here’s a map centered on the Royal Observatory Greenwich:</p>
-<div id="663d0167" class="cell" data-execution_count="1">
+<div id="dc57dd54" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">from</span> ipyleaflet <span class="im" style="color: #00769E;
@@ -552,7 +570,7 @@ font-style: inherit;">0.000500</span>)))</span>
 <span id="cb1-10">m</span></code></pre></div></div>
 <div class="cell-output cell-output-display">
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id":"38cf96cc2abc46dfb14820d490d7883d","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
+{"model_id":"808076d2aa8846288d27546401d9785d","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
 </script>
 </div>
 </div>
@@ -562,6 +580,7 @@ font-style: inherit;">0.000500</span>)))</span>
  ]]></description>
   <category>code</category>
   <category>dataviz</category>
+  <category>images</category>
   <guid>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-20_interactive-charts/</guid>
   <pubDate>Fri, 19 Sep 2025 23:00:00 GMT</pubDate>
   <media:content url="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-20_interactive-charts/post-preview.png" medium="image" type="image/png" height="72" width="144"/>
@@ -625,7 +644,7 @@ font-style: inherit;">```</span></span></code></pre></div></div>
 
 
 <p>The palmerpenguins dataset is <strong>always</strong> useful!</p>
-<div id="194aba07" class="cell" data-execution_count="1">
+<div id="c5d81418" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">from</span> palmerpenguins <span class="im" style="color: #00769E;
@@ -658,7 +677,7 @@ font-style: inherit;">'species'</span>].value_counts()</span></code></pre></div>
 <section id="showing-matplotlib-charts" class="level1">
 <h1>Showing Matplotlib Charts</h1>
 <p>We can display matplotlib charts directly:</p>
-<div id="d298112f" class="cell" data-execution_count="2">
+<div id="75e862b0" class="cell" data-execution_count="2">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
@@ -684,7 +703,7 @@ font-style: inherit;">3</span>)</span>
 </div>
 </div>
 </div>
-<div id="745f9a7e" class="cell" data-execution_count="3">
+<div id="a0e411e6" class="cell" data-execution_count="3">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1">plot.savefig(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"matplotlib_bar.png"</span>)</span></code></pre></div></div>
@@ -694,6 +713,8 @@ font-style: inherit;">"matplotlib_bar.png"</span>)</span></code></pre></div></di
 </section>
 
  ]]></description>
+  <category>advice</category>
+  <category>code</category>
   <guid>http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-19_first-post/</guid>
   <pubDate>Thu, 18 Sep 2025 23:00:00 GMT</pubDate>
   <media:content url="http://linkedinlearning.github.io/create-your-own-data-blog-with-quarto-and-python-5968001/posts/2025-09-19_first-post/matplotlib_bar.png" medium="image" type="image/png" height="72" width="144"/>

@@ -11,14 +11,14 @@
     "href": "index.html",
     "title": "A Blog With Python Thanks to Quarto",
     "section": "",
-    "text": "Welcome to my data (and sometime coffee) blog\n\n\n\n\n\n\n\n\n\n\nSocial cards and open graph\n\n\n\n\n\n\n\n\nSep 28, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nImage discovery disabled\n\n\n\n\n\n\n\n\nSep 26, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nResponsiveness and mobile devices\n\n\n\n\n\n\n\n\nSep 25, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nDark mode switch and branding\n\n\n\n\n\n\n\n\nSep 24, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nSCSS and SASS Variables\n\n\n\n\n\n\n\n\nSep 23, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\n_brand.yml for styling your blog and Python output\n\n\n\n\n\n\n\n\nSep 23, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nA long-running piece of code\n\n\n\n\n\n\n\n\nSep 21, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nImage advice\n\n\n\n\n\n\n\n\nSep 21, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive charts\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nSep 20, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nAdvice for more complex posts\n\n\n\nadvice\n\ncode\n\n\n\n\n\n\n\n\n\nSep 20, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nOur first real post\n\n\n\n\n\n\n\n\nSep 19, 2025\n\n\n\n\n\nNo matching items\n\n\n\n\n\nAbout me\nI’m a data storyteller"
+    "text": "Welcome to my data (and sometime coffee) blog\n\n\n\n\n\n\n\n\n\n\nImage discovery disabled\n\n\n\nadvice\n\nimages\n\n\n\n\n\n\n\n\n\nSep 26, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nSocial cards and open graph\n\n\n\nadvice\n\nstyling\n\n\n\n\n\n\n\n\n\nSep 26, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nResponsiveness and mobile devices\n\n\n\nadvice\n\nstyling\n\n\n\n\n\n\n\n\n\nSep 25, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nDark mode switch and branding\n\n\n\nadvice\n\nstyling\n\ncode\n\n\n\n\n\n\n\n\n\nSep 24, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nSCSS and SASS Variables\n\n\n\nadvice\n\nstyling\n\n\n\n\n\n\n\n\n\nSep 23, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\n_brand.yml for styling your blog and Python output\n\n\n\nstyling\n\ncode\n\n\n\n\n\n\n\n\n\nSep 23, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nA long-running piece of code\n\n\n\nadvice\n\ncode\n\n\n\n\n\n\n\n\n\nSep 21, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nImage advice\n\n\n\nadvice\n\ncode\n\nimages\n\n\n\n\n\n\n\n\n\nSep 21, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive charts\n\n\n\ncode\n\ndataviz\n\nimages\n\n\n\n\n\n\n\n\n\nSep 20, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nAdvice for more complex posts\n\n\n\nadvice\n\ncode\n\n\n\n\n\n\n\n\n\nSep 20, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nOur first real post\n\n\n\nadvice\n\ncode\n\n\n\n\n\n\n\n\n\nSep 19, 2025\n\n\n\n\n\nNo matching items\n\n\n\n\n\nAbout me\nI’m a data storyteller"
   },
   {
     "objectID": "coffee-blog.html",
     "href": "coffee-blog.html",
     "title": "Coffee Blog",
     "section": "",
-    "text": "You might want your blog to have multiple listings.\nFor instance most of your content is about Python and data so that’s what most people will be interested in. But you might also be passionate about coffee, embroidery, 14th Century cuisine or something else.\nOr… thinking more practically you might have a listing for blogposts and another for your podcast episodes! Quarto has great flexibility for that - as you can see here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCortado: When and why?\n\n\n\n\n\n\n\n\n\nAug 8, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n1, 2, 3 Coffee: My new favourite coffee\n\n\n\n\n\n\n\n\n\nAug 8, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "You might want your blog to have multiple listings.\nFor instance most of your content is about Python and data so that’s what most people will be interested in. But you might also be passionate about coffee, embroidery, 14th Century cuisine or something else.\nOr… thinking more practically you might have a listing for blogposts and another for your podcast episodes! Quarto has great flexibility for that - as you can see here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCortado: When and why?\n\n\n\nTypes of coffee\n\n\n\n\n\n\n\n\n\n\nAug 8, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n1, 2, 3 Coffee: My new favourite coffee\n\n\n\ncoffee venue\n\n\n\n\n\n\n\n\n\n\nAug 8, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "coffee-reviews/cortado/index.html",
@@ -68,6 +68,13 @@
     "title": "Advice for more complex posts",
     "section": "Analysis",
     "text": "Analysis\nThis script performs a K-Means clustering on the palmer penguins dataset.\nOut of 333 penguins, our model misclassified 5.0% of the penguins.\nThe model has these parameters:\n\nNumber of Clusters: 3\nMax Iterations: 300\n\nThis plotnine chart exposes where penguins were misclassified:"
+  },
+  {
+    "objectID": "posts/2025-09-26_disable-image-discovery/index.html",
+    "href": "posts/2025-09-26_disable-image-discovery/index.html",
+    "title": "Image discovery disabled",
+    "section": "",
+    "text": "In this post image is set to false.\nBut we also include an image to check exactly what happens…"
   },
   {
     "objectID": "side-projects.html",
@@ -158,7 +165,7 @@
     "href": "data-blog.html",
     "title": "Blog",
     "section": "",
-    "text": "You’ll find all of my data blogposts here. There are tutorial posts, data explorations, charts and more abstract posts.\nI’ve got a separate listing for my coffee posts\n\nBlog\n\n\n\n\n\n\n\n\n\n\nImage discovery disabled\n\n\n\n\n\n\n\n\nSep 26, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nSocial cards and open graph\n\n\n\n\n\n\n\n\nSep 26, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nResponsiveness and mobile devices\n\n\n\n\n\n\n\n\nSep 25, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nDark mode switch and branding\n\n\n\n\n\n\n\n\nSep 24, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nSCSS and SASS Variables\n\n\n\n\n\n\n\n\nSep 23, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\n_brand.yml for styling your blog and Python output\n\n\n\n\n\n\n\n\nSep 23, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nA long-running piece of code\n\n\n\n\n\n\n\n\nSep 21, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nImage advice\n\n\n\n\n\n\n\n\nSep 21, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive charts\n\n\n\ncode\n\ndataviz\n\n\n\n\n\n\n\n\n\nSep 20, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nAdvice for more complex posts\n\n\n\nadvice\n\ncode\n\n\n\n\n\n\n\n\n\nSep 20, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nOur first real post\n\n\n\n\n\n\n\n\nSep 19, 2025\n\n\n\n\n\nNo matching items"
+    "text": "You’ll find all of my data blogposts here. There are tutorial posts, data explorations, charts and more abstract posts.\nI’ve got a separate listing for my coffee posts\n\nBlog\n\n\n\n\n\n\n\n\n\n\nImage discovery disabled\n\n\n\nadvice\n\nimages\n\n\n\n\n\n\n\n\n\nSep 26, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nSocial cards and open graph\n\n\n\nadvice\n\nstyling\n\n\n\n\n\n\n\n\n\nSep 26, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nResponsiveness and mobile devices\n\n\n\nadvice\n\nstyling\n\n\n\n\n\n\n\n\n\nSep 25, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nDark mode switch and branding\n\n\n\nadvice\n\nstyling\n\ncode\n\n\n\n\n\n\n\n\n\nSep 24, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nSCSS and SASS Variables\n\n\n\nadvice\n\nstyling\n\n\n\n\n\n\n\n\n\nSep 23, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\n_brand.yml for styling your blog and Python output\n\n\n\nstyling\n\ncode\n\n\n\n\n\n\n\n\n\nSep 23, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nA long-running piece of code\n\n\n\nadvice\n\ncode\n\n\n\n\n\n\n\n\n\nSep 21, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nImage advice\n\n\n\nadvice\n\ncode\n\nimages\n\n\n\n\n\n\n\n\n\nSep 21, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive charts\n\n\n\ncode\n\ndataviz\n\nimages\n\n\n\n\n\n\n\n\n\nSep 20, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nAdvice for more complex posts\n\n\n\nadvice\n\ncode\n\n\n\n\n\n\n\n\n\nSep 20, 2025\n\n\nCharlotte Hadley\n\n\n\n\n\n\n\n\n\n\n\n\nOur first real post\n\n\n\nadvice\n\ncode\n\n\n\n\n\n\n\n\n\nSep 19, 2025\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -166,12 +173,5 @@
     "title": "About",
     "section": "",
     "text": "About this blog"
-  },
-  {
-    "objectID": "posts/2025-09-26_disable-image-discovery/index.html",
-    "href": "posts/2025-09-26_disable-image-discovery/index.html",
-    "title": "Image discovery disabled",
-    "section": "",
-    "text": "In this post image is set to false.\nBut we also include an image to check exactly what happens…"
   }
 ]

@@ -5,6 +5,7 @@ date: "2025-09-26"
 image: false
 open-graph:
     title: "LinkedIn will use our site level image!"
+categories: [advice, images]
 ---
 
 In this post image is set to false.

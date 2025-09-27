@@ -5,7 +5,7 @@ listing:
   contents: coffee-reviews
   sort: "date desc"
   type: grid
-  categories: false
+  categories: numbered
   feed: true
 ---
 

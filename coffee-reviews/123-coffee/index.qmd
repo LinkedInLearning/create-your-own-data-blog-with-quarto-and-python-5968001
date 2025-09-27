@@ -2,6 +2,7 @@
 title: "1, 2, 3 Coffee: My new favourite coffee"
 date: "2025-08-08"
 image: post-preview.png
+categories: ["coffee venue"]
 ---
 
 This is a fictional review for a fictional coffee house call "1, 2, 3 Coffee"...
