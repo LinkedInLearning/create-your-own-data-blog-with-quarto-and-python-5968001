@@ -1,0 +1,16 @@
+---
+title: "_brand.yml for styling your blog and Python output"
+date: "2025-09-23"
+author: "Charlotte Hadley"
+---
+
+<span style='color:{{<brand color chart-primary>}}'>You might want to use custom colours in HTML</span>
+
+
+```{python}
+from brand_yml import Brand
+brand = Brand.from_yaml("../../_brand.yml")
+brand.color.palette['story-primary']
+```
+
+Red isn't a great background colour.

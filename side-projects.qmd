@@ -1,9 +1,10 @@
 ---
 title: "Charlotte's side projects"
-bread-crumbs: true
+toc: true
+toc-depth: 3
 ---
 
-I have a few side projects I'm working on, some are in data but I'm also working on expanding my creativity.
+I have a few sde projects I'm working on some are are in data but I'm also expanding my creativity.
 
 ::: {.aside}
 A data blog with side projects? Surely a podcast is next?
@@ -13,7 +14,7 @@ A data blog with side projects? Surely a podcast is next?
 
 ### Shiny fishing game
 
-A project to explore game design.
+A project to explore game design
 
 ### Tidy tuesday dataset explorer
 

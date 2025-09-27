@@ -2,11 +2,10 @@
 pandas
 plotnine
 scikit-misc
-scikit-learn
+sklearn
 palmerpenguins
 jupyter-cache
 lorem_text
 itables
 tabulate
 ipyleaflet
-brand_yml

@@ -1,0 +1,13 @@
+{
+  "listingMap": {
+    "index.qmd": [
+      "posts"
+    ],
+    "coffee-blog.qmd": [
+      "coffee-reviews"
+    ],
+    "data-blog.qmd": [
+      "posts"
+    ]
+  }
+}

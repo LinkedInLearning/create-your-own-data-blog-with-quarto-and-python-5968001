@@ -1,0 +1,10 @@
+---
+title: "Image advice"
+date: "2025-09-21"
+author: "Charlotte Hadley"
+image: "image-paths.png"
+---
+
+Keep images you'll re-use many times in the images folder at the root of the project.
+
+<img src="../../images/tech-stack.png" width="100%"/>

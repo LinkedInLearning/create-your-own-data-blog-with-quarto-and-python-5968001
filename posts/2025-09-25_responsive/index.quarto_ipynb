@@ -1,0 +1,135 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Responsiveness and mobile devices\"\n",
+        "author: \"Charlotte Hadley\"\n",
+        "date: \"2025-09-25\"\n",
+        "---\n",
+        "\n",
+        "[Bootstrap's grid layout system](https://quarto.org/docs/output-formats/page-layout.html#css-grid) provides true flexibility. It can get quite complicated.\n",
+        "\n",
+        "::: {.grid .column-screen}\n",
+        "\n",
+        "::: {.g-col-12 .g-col-md-4}"
+      ],
+      "id": "be37d451"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "# | echo: false\n",
+        "import matplotlib.pyplot as plt\n",
+        "import numpy as np\n",
+        "\n",
+        "# Parameters for the normal distribution\n",
+        "mean = 0\n",
+        "std_dev = 1\n",
+        "x = np.linspace(mean - 4*std_dev, mean + 4*std_dev, 1000)\n",
+        "y_light = (1/(std_dev * np.sqrt(2 * np.pi))) * \\\n",
+        "    np.exp(-0.5 * ((x - mean) / std_dev)**2)\n",
+        "y_dark = -(1/(std_dev * np.sqrt(2 * np.pi))) * \\\n",
+        "    np.exp(-0.5 * ((x - mean) / std_dev)**2)\n",
+        "\n",
+        "plot_1 = plt.figure()\n",
+        "plt.plot(x, y_light)\n",
+        "plt.title('Chart 1')\n",
+        "plt.close()\n",
+        "plot_1.savefig(\"chart_1.png\")"
+      ],
+      "id": "f7f159a1",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "![](chart_1.png)\n",
+        ":::\n",
+        "\n",
+        "::: {.g-col-6 .g-col-md-4}"
+      ],
+      "id": "30bd078a"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| echo: false\n",
+        "plot_2 = plt.figure()\n",
+        "plt.plot(x, y_dark)\n",
+        "plt.title('Chart 2')\n",
+        "plt.close()\n",
+        "plot_2.savefig(\"chart_2.png\")"
+      ],
+      "id": "9fe7a9ee",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "![](chart_2.png)\n",
+        ":::\n",
+        "\n",
+        "::: {.g-col-6 .g-col-md-4}"
+      ],
+      "id": "5d63b206"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| echo: false\n",
+        "plot_3 = plt.figure()\n",
+        "plt.plot(x, y_light)\n",
+        "plt.title('Chart 3')\n",
+        "plt.close()\n",
+        "plot_3.savefig(\"chart_3.png\")"
+      ],
+      "id": "9e8f9f3d",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "![](chart_3.png)\n",
+        ":::\n",
+        "\n",
+        ":::\n",
+        "\n",
+        "# Quarto's own formats\n",
+        "\n",
+        "There are several article layouts that give you more of the screen.\n",
+        "\n",
+        "::: {.aside}\n",
+        "Note you can use these [Quarto layouts](https://quarto.org/docs/authoring/article-layout.html) in any HTML format.\n",
+        ":::\n",
+        "\n",
+        "<hr/>\n",
+        "\n",
+        "::: {.column-screen}\n",
+        "![](../../images/tech-stack.png)\n",
+        ":::"
+      ],
+      "id": "bb36c82a"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

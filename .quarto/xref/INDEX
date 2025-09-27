@@ -1,0 +1,65 @@
+{
+  "posts/2025-09-19_first-post/index.qmd": {
+    "index.html": "54b99d48"
+  },
+  "index.qmd": {
+    "index.html": "bc8db906"
+  },
+  "about.qmd": {
+    "about.html": "35cb51d3"
+  },
+  "CONTRIBUTING.md": {
+    "CONTRIBUTING.html": "94c91d8d"
+  },
+  "posts/2025-09-20_interactive-charts/index.qmd": {
+    "index.html": "9f616878"
+  },
+  "posts/2025-09-20_advice-for-more-complex-posts/index.qmd": {
+    "index.html": "9ec60cf8"
+  },
+  "coffee-reviews/cortado/index.qmd": {
+    "index.html": "9d14dee8"
+  },
+  "coffee-reviews/123-coffee/index.qmd": {
+    "index.html": "e7ef6b3d"
+  },
+  "coffee-blog.qmd": {
+    "coffee-blog.html": "87510597"
+  },
+  "data-blog.qmd": {
+    "data-blog.html": "c8fec7c6"
+  },
+  "posts/2025-09-21_long-running-code/index.qmd": {
+    "index.html": "c7b37ff6"
+  },
+  "posts/2025-09-20_future-ideas/index.qmd": {
+    "index.html": "f6a5ee47"
+  },
+  "side-projects.qmd": {
+    "side-projects.html": "fb36ab07"
+  },
+  "posts/2025-09-21_image-advice/index.qmd": {
+    "index.html": "3b3db8b2"
+  },
+  "posts/2025-09-23_brand-yml/index.qmd": {
+    "index.html": "01336534"
+  },
+  "posts/2025-09-23_scss/index.qmd": {
+    "index.html": "4f69b01f"
+  },
+  "posts/2025-09-24_dark-mode/index.qmd": {
+    "index.html": "60b3ed2f"
+  },
+  "posts/2025-09-25_responsive/index.qmd": {
+    "index.html": "47dc508e"
+  },
+  "posts/2025-09-25_social-cards/index.qmd": {
+    "index.html": "b3c8538d"
+  },
+  "posts/2025-09-26_disable-image-discovery/index.qmd": {
+    "index.html": "b0788b22"
+  },
+  "posts/2025-09-26_social-cards/index.qmd": {
+    "index.html": "d14b2cd6"
+  }
+}
