@@ -16,8 +16,7 @@ website:
       - text: "Coffee blog"
         icon: cup-hot-fill
         href: coffee-blog.qmd
-      - text: "<i class='fa-solid fa-qrcode'></i> About <em>my</em> blog"
-        href: about.qmd
+      - about.qmd
       - icon: github
         href: https://github.com/
   page-footer:
