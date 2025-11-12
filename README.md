@@ -23,10 +23,22 @@ To resolve this issue:
 	Commit changes using this command: git commit -m "some message"
 
 ## Installing
+
+You have a two choices for using the exercises files; GitHub Codespaces or forking the repository. Codespaces doesn't require any installation.
+
+### Using GitHub Codespaces
+
+For every lesson with code exercises you will find a branch ending with b, eg 06_03b. There is a corresponding codespace you can find by clicking on the "Code" button at the top of the file list, select the "Codespace" tab and find the codespace with the same name as the branch. 
+
+You can then click on the ellipses (...) and open the Codespace either in your browser or Visual Studio. You'll be able to code along with the author.
+
+### Forking the respository
+
 1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
+	- Quarto
+    - Jupyter
 2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+3. Navigate to the branch for each lesson and follow along.
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
